@@ -1,0 +1,283 @@
+/* GLOBAL STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:'"Raleway', sans-serif ;
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333;
+    line-height:1.3;
+}
+
+section {
+    padding: 7rem 0;
+}
+
+.container {
+    width: 100%
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+    align-items: center
+}
+
+/* HEADER STYLES */
+/* HEADER STYLES */
+/* HEADER STYLES */
+header {
+    width: 100%;
+    background-color: #eee;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: 7rem;
+    padding:  0;
+}
+
+nav ul {
+ display:flex;
+ justify-content: space-between;
+ align-items: center;   
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1.6rem;
+    padding: 0 1.5rem;
+}
+
+li a,
+li a:visited,
+li a:active {
+    font-size: inherit;
+    font-weight: 500;
+    text-decoration: none;
+    color: #16697a;
+    transition: all .3s;
+}
+
+li a:hover,
+ul li .current {
+    color: #bb2205;
+    font-size: 1.7rem;
+}
+
+/* INTRO SECTION */
+/* INTRO SECTION */
+/* INTRO SECTION */
+.intro-section {
+    background: url(./images/1-bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.intro {
+    width: 55%;
+    color: #fff;
+    background-color: rgba(0,0,0,5);
+    padding: 5rem 2rem;
+    border-radius: 5px;
+}
+
+.intro .intro-text {
+    color: #bb2205;
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.p-head {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+
+.p-head span {
+    display: block;
+}
+
+.white-text {
+    color:#fff;
+    margin-bottom: 2.5rem;
+}
+
+.btn{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: .8rem 1.6rem;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all .3s;
+    margin-top: 2.5rem;
+}
+
+.btn:hover {
+    background-color: #bb2205;
+}
+
+/* ABOUT SECTION */
+/* ABOUT SECTION */
+/* ABOUT SECTION */
+.about-section {
+    background-color: #eee;
+}
+
+.about {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.s-head{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:#333;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+/* MENU SECTION */
+/* MENU SECTION */
+/* MENU SECTION */
+.menu-section{
+    background-color: #fff;
+}
+
+.menu-heading{
+    text-align: center;
+}
+
+.menu-items{
+    display:flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.menu-item{
+    width: 100%;
+    margin: 1rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.menu-item img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 1rem;
+}
+
+.menu-item-text {
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.t-head{
+    font-size: 2rem;
+    font-weight: 500;
+    color:#333;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+}
+
+.menu-item-text p {
+    font-size: 1.3rem;
+}
+
+/* TESTIMONIAL SECTION */
+/* TESTIMONIAL SECTION */
+/* TESTIMONIAL SECTION */
+.testimonial {
+background: url(./images/bg-3.jpg) no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.testimonial {
+    width: 60%;
+    text-align: center;
+    padding: 5rem .5rem;
+    background-color: rgba(255,255,255,5);
+    border-radius: 5px;
+}
+
+.testimonial img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.q-head {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #333;
+    text-transform: capitalize;
+    margin-bottom: 5rem;
+}
+
+
+
+
+/*******MEDIA QUERIES**********/
+/*******MEDIA QUERIES**********/
+/*******MEDIA QUERIES**********/
+
+@media screen and (max-width: 600px) {
+    /* INTRO SECTION */
+    .intro {
+        width: 100%;
+    }
+
+/* about section */
+.about{
+    width: 100px;
+}
+
+/* MENU SECTION */
+.menu-items {
+    flex-direction: column;
+}
+}
+
+/* TESTIMONIAL SECTION */
+.testimonial {
+    width: 70%;
+}
